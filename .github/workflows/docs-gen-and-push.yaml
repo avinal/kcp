@@ -2,8 +2,7 @@ name: Generate and push docs
 
 on:
   push:
-    branches:
-      - main
+    branches: [main, avinal/test]
     tags:
       - "v*"
     paths:
@@ -12,6 +11,7 @@ on:
       - "pkg/**"
       - "README.md"
   workflow_dispatch:
+  pull_request:
 
 jobs:
   generate-and-push:
