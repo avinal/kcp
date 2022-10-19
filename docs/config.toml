@@ -1,4 +1,4 @@
-baseURL = 'http://kcp-dev.github.io/kcp'
+baseURL = 'https://avinal.space/docs/kcp'
 contentDir = "content/en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -144,4 +144,4 @@ url = "https://github.com/kcp-dev/kcp/blob/main/CONTRIBUTING.md"
 
 [[params.versions]]
 version = "main"
-url = "https://kcp-dev.github.io/kcp/main"
+url = "https://avinal.space/kcp/main"
