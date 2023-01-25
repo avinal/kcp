@@ -398,16 +398,16 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --context string The name of the kubeconfig context to use
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --downstream-namespace-clean-delay duration Time to wait before deleting a downstream namespaces. (default 30s)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --feature-gates string A set of key=value pairs that describe feature gates for alpha/experimental features. Options are:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> CustomResourceValidationExpressions
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ContextualLogging
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> AdvancedAuditing
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> APIListChunking
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> DryRun
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ServerSideApply
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> APIPriorityAndFairness
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> KCPLocationAPI
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ContextualLogging
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> DryRun
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> KCPSyncerTunnel
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> AdvancedAuditing
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> APIResponseCompression
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> APIListChunking
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ServerSideApply
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> CustomResourceValidationExpressions
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> KCPLocationAPI
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> -h, --help help for sync
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --insecure-skip-tls-verify If true, the server&amp;#39;s certificate will not be checked for validity. This will make your HTTPS connections insecure
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --kcp-namespace string The name of the kcp namespace to create a service account in. (default &amp;#34;default&amp;#34;)
