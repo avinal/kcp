@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kcp - a multi-tenant control plane for Kubernetes APIs – CRD Reference</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/</link><description>Recent content in CRD Reference on kcp - a multi-tenant control plane for Kubernetes APIs</description><generator>Hugo -- gohugo.io</generator><atom:link href="http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/index.xml" rel="self" type="application/rss+xml"/><item><title>V0.10.0: APIBinding CRD schema reference (group apis.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apibindings.apis.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apibindings.apis.kcp.io/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kcp - a multi-tenant control plane for Kubernetes APIs – CRD Reference</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/</link><description>Recent content in CRD Reference on kcp - a multi-tenant control plane for Kubernetes APIs</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/index.xml" rel="self" type="application/rss+xml"/><item><title>V0.10.0: APIBinding CRD schema reference (group apis.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apibindings.apis.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apibindings.apis.kcp.io/</guid><description>
 &lt;h2 id="apibinding">APIBinding&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>
@@ -796,7 +796,7 @@ Versions may not be removed while they exist in this list.&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V0.10.0: APIExport CRD schema reference (group apis.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiexports.apis.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiexports.apis.kcp.io/</guid><description>
+&lt;/div></description></item><item><title>V0.10.0: APIExport CRD schema reference (group apis.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiexports.apis.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiexports.apis.kcp.io/</guid><description>
 &lt;h2 id="apiexport">APIExport&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>
@@ -1275,7 +1275,7 @@ Deprecated: use APIExportEndpointSlice.status.endpoints instead&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V0.10.0: APIExportEndpointSlice CRD schema reference (group apis.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiexportendpointslices.apis.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiexportendpointslices.apis.kcp.io/</guid><description>
+&lt;/div></description></item><item><title>V0.10.0: APIExportEndpointSlice CRD schema reference (group apis.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiexportendpointslices.apis.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiexportendpointslices.apis.kcp.io/</guid><description>
 &lt;h2 id="apiexportendpointslice">APIExportEndpointSlice&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>
@@ -1557,7 +1557,7 @@ Deprecated: use APIExportEndpointSlice.status.endpoints instead&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V0.10.0: APIResourceImport CRD schema reference (group apiresource.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiresourceimports.apiresource.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiresourceimports.apiresource.kcp.io/</guid><description>
+&lt;/div></description></item><item><title>V0.10.0: APIResourceImport CRD schema reference (group apiresource.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiresourceimports.apiresource.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiresourceimports.apiresource.kcp.io/</guid><description>
 &lt;h2 id="apiresourceimport">APIResourceImport&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>
@@ -2044,7 +2044,7 @@ Deprecated: use APIExportEndpointSlice.status.endpoints instead&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V0.10.0: APIResourceSchema CRD schema reference (group apis.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiresourceschemas.apis.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiresourceschemas.apis.kcp.io/</guid><description>
+&lt;/div></description></item><item><title>V0.10.0: APIResourceSchema CRD schema reference (group apis.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiresourceschemas.apis.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/apiresourceschemas.apis.kcp.io/</guid><description>
 &lt;h2 id="apiresourceschema">APIResourceSchema&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>
@@ -2551,7 +2551,7 @@ Note: the OpenAPI v3 schemas must be equal for all versions until CEL version mi
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V0.10.0: Location CRD schema reference (group scheduling.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/locations.scheduling.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/locations.scheduling.kcp.io/</guid><description>
+&lt;/div></description></item><item><title>V0.10.0: Location CRD schema reference (group scheduling.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/locations.scheduling.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/locations.scheduling.kcp.io/</guid><description>
 &lt;h2 id="location">Location&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>
@@ -2910,7 +2910,7 @@ Note that these labels are not what is shown in the Location objects to the user
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V0.10.0: LogicalCluster CRD schema reference (group core.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/logicalclusters.core.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/logicalclusters.core.kcp.io/</guid><description>
+&lt;/div></description></item><item><title>V0.10.0: LogicalCluster CRD schema reference (group core.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/logicalclusters.core.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/logicalclusters.core.kcp.io/</guid><description>
 &lt;h2 id="logicalcluster">LogicalCluster&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>
@@ -3296,7 +3296,7 @@ When this object is deleted, but the owner is not deleted, the owner is deleted 
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V0.10.0: NegotiatedAPIResource CRD schema reference (group apiresource.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/negotiatedapiresources.apiresource.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/negotiatedapiresources.apiresource.kcp.io/</guid><description>
+&lt;/div></description></item><item><title>V0.10.0: NegotiatedAPIResource CRD schema reference (group apiresource.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/negotiatedapiresources.apiresource.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/negotiatedapiresources.apiresource.kcp.io/</guid><description>
 &lt;h2 id="negotiatedapiresource">NegotiatedAPIResource&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>
@@ -3766,7 +3766,7 @@ When this object is deleted, but the owner is not deleted, the owner is deleted 
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V0.10.0: Partition CRD schema reference (group topology.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/partitions.topology.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/partitions.topology.kcp.io/</guid><description>
+&lt;/div></description></item><item><title>V0.10.0: Partition CRD schema reference (group topology.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/partitions.topology.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/partitions.topology.kcp.io/</guid><description>
 &lt;h2 id="partition">Partition&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>
@@ -3937,7 +3937,7 @@ When this object is deleted, but the owner is not deleted, the owner is deleted 
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V0.10.0: PartitionSet CRD schema reference (group topology.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/partitionsets.topology.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/partitionsets.topology.kcp.io/</guid><description>
+&lt;/div></description></item><item><title>V0.10.0: PartitionSet CRD schema reference (group topology.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/partitionsets.topology.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/partitionsets.topology.kcp.io/</guid><description>
 &lt;h2 id="partitionset">PartitionSet&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>
@@ -4157,7 +4157,7 @@ When this object is deleted, but the owner is not deleted, the owner is deleted 
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V0.10.0: Placement CRD schema reference (group scheduling.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/placements.scheduling.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/placements.scheduling.kcp.io/</guid><description>
+&lt;/div></description></item><item><title>V0.10.0: Placement CRD schema reference (group scheduling.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/placements.scheduling.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/placements.scheduling.kcp.io/</guid><description>
 &lt;h2 id="placement">Placement&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>
@@ -4680,7 +4680,7 @@ When this object is deleted, but the owner is not deleted, the owner is deleted 
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V0.10.0: Shard CRD schema reference (group core.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/shards.core.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/shards.core.kcp.io/</guid><description>
+&lt;/div></description></item><item><title>V0.10.0: Shard CRD schema reference (group core.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/shards.core.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/shards.core.kcp.io/</guid><description>
 &lt;h2 id="shard">Shard&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>
@@ -4925,7 +4925,7 @@ This will be defaulted to the value of the baseURL.&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V0.10.0: SyncTarget CRD schema reference (group workload.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/synctargets.workload.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/synctargets.workload.kcp.io/</guid><description>
+&lt;/div></description></item><item><title>V0.10.0: SyncTarget CRD schema reference (group workload.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/synctargets.workload.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/synctargets.workload.kcp.io/</guid><description>
 &lt;h2 id="synctarget">SyncTarget&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>
@@ -5405,7 +5405,7 @@ This will be defaulted to the value of the baseURL.&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V0.10.0: Workspace CRD schema reference (group tenancy.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/workspaces.tenancy.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/workspaces.tenancy.kcp.io/</guid><description>
+&lt;/div></description></item><item><title>V0.10.0: Workspace CRD schema reference (group tenancy.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/workspaces.tenancy.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/workspaces.tenancy.kcp.io/</guid><description>
 &lt;h2 id="workspace">Workspace&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>
@@ -5829,7 +5829,7 @@ The type is a reference to a WorkspaceType in the listed workspace, but lower-ca
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V0.10.0: WorkspaceType CRD schema reference (group tenancy.kcp.io)</title><link>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/workspacetypes.tenancy.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/crd-reference/workspacetypes.tenancy.kcp.io/</guid><description>
+&lt;/div></description></item><item><title>V0.10.0: WorkspaceType CRD schema reference (group tenancy.kcp.io)</title><link>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/workspacetypes.tenancy.kcp.io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/crd-reference/workspacetypes.tenancy.kcp.io/</guid><description>
 &lt;h2 id="workspacetype">WorkspaceType&lt;/h2>
 &lt;dl class="crd-meta">
 &lt;dt class="fullname">Full name:&lt;/dt>

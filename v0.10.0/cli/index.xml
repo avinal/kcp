@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kcp - a multi-tenant control plane for Kubernetes APIs – CLI Reference</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/</link><description>Recent content in CLI Reference on kcp - a multi-tenant control plane for Kubernetes APIs</description><generator>Hugo -- gohugo.io</generator><atom:link href="http://kcp-dev.github.io/kcp/v0.10.0/cli/index.xml" rel="self" type="application/rss+xml"/><item><title>V0.10.0: kcp</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kcp - a multi-tenant control plane for Kubernetes APIs – CLI Reference</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/</link><description>Recent content in CLI Reference on kcp - a multi-tenant control plane for Kubernetes APIs</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://kcp-dev.github.io/kcp/v0.10.0/cli/index.xml" rel="self" type="application/rss+xml"/><item><title>V0.10.0: kcp</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp/</guid><description>
 &lt;h3 id="synopsis">Synopsis&lt;/h3>
 &lt;p>KCP is the easiest way to manage Kubernetes applications against one or more clusters, by giving you a personal control plane that schedules your workloads onto one or many clusters, and making it simple to pick up and move. Advanced use cases including spreading your apps across clusters for resiliency, scheduling batch workloads onto clusters with free capacity, and enabling collaboration for individual teams without having access to the underlying clusters.&lt;/p>
 &lt;p>This command provides KCP specific sub-command for kubectl.&lt;/p>
@@ -19,12 +19,12 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_bind/">kcp bind&lt;/a> - Bind different types into current workspace.&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_claims/">kcp claims&lt;/a> - Operations related to viewing or updating permission claims&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_crd/">kcp crd&lt;/a> - CRD related operations&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload/">kcp workload&lt;/a> - Manages KCP sync targets&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace/">kcp workspace&lt;/a> - Manages KCP workspaces&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp bind</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_bind/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_bind/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_bind/">kcp bind&lt;/a> - Bind different types into current workspace.&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_claims/">kcp claims&lt;/a> - Operations related to viewing or updating permission claims&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_crd/">kcp crd&lt;/a> - CRD related operations&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload/">kcp workload&lt;/a> - Manages KCP sync targets&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace/">kcp workspace&lt;/a> - Manages KCP workspaces&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp bind</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_bind/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_bind/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp bind [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="options">Options&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span> -h, --help help for bind
@@ -44,10 +44,10 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp/">kcp&lt;/a> - kubectl plugin for KCP&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_bind_apiexport/">kcp bind apiexport&lt;/a> - Bind to an APIExport&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_bind_compute/">kcp bind compute&lt;/a> - Bind to a location workspace&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp bind apiexport</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_bind_apiexport/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_bind_apiexport/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp/">kcp&lt;/a> - kubectl plugin for KCP&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_bind_apiexport/">kcp bind apiexport&lt;/a> - Bind to an APIExport&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_bind_compute/">kcp bind compute&lt;/a> - Bind to a location workspace&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp bind apiexport</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_bind_apiexport/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_bind_apiexport/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp bind apiexport &amp;lt;workspace_path:apiexport-name&amp;gt; [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="examples">Examples&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>
@@ -87,8 +87,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_bind/">kcp bind&lt;/a> - Bind different types into current workspace.&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp bind compute</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_bind_compute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_bind_compute/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_bind/">kcp bind&lt;/a> - Bind different types into current workspace.&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp bind compute</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_bind_compute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_bind_compute/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp bind compute &amp;lt;location workspace&amp;gt; [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="examples">Examples&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>
@@ -137,8 +137,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_bind/">kcp bind&lt;/a> - Bind different types into current workspace.&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp claims</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_claims/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_claims/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_bind/">kcp bind&lt;/a> - Bind different types into current workspace.&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp claims</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_claims/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_claims/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp claims [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="examples">Examples&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-zed" data-lang="zed">&lt;span style="display:flex;">&lt;span>
@@ -166,9 +166,9 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp/">kcp&lt;/a> - kubectl plugin for KCP&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_claims_get/">kcp claims get&lt;/a> - Operations related to fetching APIs with respect to permission claims&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp claims get</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_claims_get/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_claims_get/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp/">kcp&lt;/a> - kubectl plugin for KCP&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_claims_get/">kcp claims get&lt;/a> - Operations related to fetching APIs with respect to permission claims&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp claims get</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_claims_get/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_claims_get/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp claims get [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="options">Options&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span> -h, --help help for get
@@ -188,9 +188,9 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_claims/">kcp claims&lt;/a> - Operations related to viewing or updating permission claims&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_claims_get_apibinding/">kcp claims get apibinding&lt;/a> - Get claims related to apibinding&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp claims get apibinding</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_claims_get_apibinding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_claims_get_apibinding/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_claims/">kcp claims&lt;/a> - Operations related to viewing or updating permission claims&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_claims_get_apibinding/">kcp claims get apibinding&lt;/a> - Get claims related to apibinding&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp claims get apibinding</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_claims_get_apibinding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_claims_get_apibinding/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp claims get apibinding &amp;lt;apibinding_name&amp;gt; [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="options">Options&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span> --as-uid string UID to impersonate for the operation
@@ -223,8 +223,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_claims_get/">kcp claims get&lt;/a> - Operations related to fetching APIs with respect to permission claims&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp crd</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_crd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_crd/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_claims_get/">kcp claims get&lt;/a> - Operations related to fetching APIs with respect to permission claims&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp crd</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_crd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_crd/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp crd [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="options">Options&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span> -h, --help help for crd
@@ -244,9 +244,9 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp/">kcp&lt;/a> - kubectl plugin for KCP&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_crd_snapshot/">kcp crd snapshot&lt;/a> - Snapshot a CRD and convert it to an APIResourceSchema&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp crd snapshot</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_crd_snapshot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_crd_snapshot/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp/">kcp&lt;/a> - kubectl plugin for KCP&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_crd_snapshot/">kcp crd snapshot&lt;/a> - Snapshot a CRD and convert it to an APIResourceSchema&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp crd snapshot</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_crd_snapshot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_crd_snapshot/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp crd snapshot -f FILE --prefix PREFIX [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="examples">Examples&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>
@@ -277,8 +277,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_crd/">kcp crd&lt;/a> - CRD related operations&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp workload</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_crd/">kcp crd&lt;/a> - CRD related operations&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp workload</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workload [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="options">Options&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span> -h, --help help for workload
@@ -298,12 +298,12 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp/">kcp&lt;/a> - kubectl plugin for KCP&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload_cordon/">kcp workload cordon&lt;/a> - Mark sync target as unschedulable&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload_drain/">kcp workload drain&lt;/a> - Start draining sync target in preparation for maintenance&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload_sync/">kcp workload sync&lt;/a> - Create a synctarget in kcp with service account and RBAC permissions. Output a manifest to deploy a syncer for the given sync target in a physical cluster.&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload_uncordon/">kcp workload uncordon&lt;/a> - Mark sync target as schedulable&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp workload cordon</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_cordon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_cordon/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp/">kcp&lt;/a> - kubectl plugin for KCP&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload_cordon/">kcp workload cordon&lt;/a> - Mark sync target as unschedulable&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload_drain/">kcp workload drain&lt;/a> - Start draining sync target in preparation for maintenance&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload_sync/">kcp workload sync&lt;/a> - Create a synctarget in kcp with service account and RBAC permissions. Output a manifest to deploy a syncer for the given sync target in a physical cluster.&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload_uncordon/">kcp workload uncordon&lt;/a> - Mark sync target as schedulable&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp workload cordon</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_cordon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_cordon/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workload cordon &amp;lt;sync-target-name&amp;gt; [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="examples">Examples&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>
@@ -340,8 +340,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload/">kcp workload&lt;/a> - Manages KCP sync targets&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp workload drain</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_drain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_drain/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload/">kcp workload&lt;/a> - Manages KCP sync targets&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp workload drain</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_drain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_drain/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workload drain &amp;lt;sync-target-name&amp;gt; [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="examples">Examples&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>
@@ -378,8 +378,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload/">kcp workload&lt;/a> - Manages KCP sync targets&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp workload sync</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_sync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_sync/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload/">kcp workload&lt;/a> - Manages KCP sync targets&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp workload sync</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_sync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_sync/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workload sync &amp;lt;sync-target-name&amp;gt; --syncer-image &amp;lt;kcp-syncer-image&amp;gt; [--resources=&amp;lt;resource1&amp;gt;,&amp;lt;resource2&amp;gt;..] -o &amp;lt;output-file&amp;gt; [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="examples">Examples&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>
@@ -398,16 +398,16 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --context string The name of the kubeconfig context to use
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --downstream-namespace-clean-delay duration Time to wait before deleting a downstream namespaces. (default 30s)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --feature-gates string A set of key=value pairs that describe feature gates for alpha/experimental features. Options are:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> AdvancedAuditing
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> APIResponseCompression
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> DryRun
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ServerSideApply
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> APIPriorityAndFairness
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> CustomResourceValidationExpressions
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ContextualLogging
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> AdvancedAuditing
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> DryRun
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> APIResponseCompression
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> APIListChunking
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> KCPLocationAPI
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> KCPSyncerTunnel
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> APIListChunking
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ServerSideApply
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> -h, --help help for sync
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --insecure-skip-tls-verify If true, the server&amp;#39;s certificate will not be checked for validity. This will make your HTTPS connections insecure
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --kcp-namespace string The name of the kcp namespace to create a service account in. (default &amp;#34;default&amp;#34;)
@@ -441,8 +441,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload/">kcp workload&lt;/a> - Manages KCP sync targets&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp workload uncordon</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_uncordon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_uncordon/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload/">kcp workload&lt;/a> - Manages KCP sync targets&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp workload uncordon</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_uncordon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workload_uncordon/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workload uncordon &amp;lt;sync-target-name&amp;gt; [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="examples">Examples&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>
@@ -479,8 +479,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload/">kcp workload&lt;/a> - Manages KCP sync targets&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp workspace</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workload/">kcp workload&lt;/a> - Manages KCP sync targets&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp workspace</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workspace [create|create-context|use|current|&amp;lt;workspace&amp;gt;|..|.|-|~|&amp;lt;root:absolute:workspace&amp;gt;] [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="examples">Examples&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>
@@ -548,13 +548,13 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">--&lt;/span>vmodule moduleSpec comma&lt;span style="color:#f92672">-&lt;/span>separated list of pattern&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">N&lt;/span> settings &lt;span style="color:#66d9ef">for&lt;/span> file&lt;span style="color:#f92672">-&lt;/span>filtered logging
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp/">kcp&lt;/a> - kubectl plugin for KCP&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace_create/">kcp workspace create&lt;/a> - Creates a new workspace&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace_create-context/">kcp workspace create-context&lt;/a> - Create a kubeconfig context for the current workspace&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace_current/">kcp workspace current&lt;/a> - Print the current workspace. Same as &amp;lsquo;kubectl ws .&amp;rsquo;.&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace_tree/">kcp workspace tree&lt;/a> - Print the current workspace tree.&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace_use/">kcp workspace use&lt;/a> - Uses the given workspace as the current workspace. Using - means previous workspace, .. means parent workspace, . mean current, ~ means home workspace&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp workspace create</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_create/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_create/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp/">kcp&lt;/a> - kubectl plugin for KCP&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace_create/">kcp workspace create&lt;/a> - Creates a new workspace&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace_create-context/">kcp workspace create-context&lt;/a> - Create a kubeconfig context for the current workspace&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace_current/">kcp workspace current&lt;/a> - Print the current workspace. Same as &amp;lsquo;kubectl ws .&amp;rsquo;.&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace_tree/">kcp workspace tree&lt;/a> - Print the current workspace tree.&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace_use/">kcp workspace use&lt;/a> - Uses the given workspace as the current workspace. Using - means previous workspace, .. means parent workspace, . mean current, ~ means home workspace&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp workspace create</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_create/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_create/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workspace create [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="examples">Examples&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workspace create &amp;lt;workspace name&amp;gt; [--type=&amp;lt;type&amp;gt;] [--enter [--ignore-not-ready]] --ignore-existing
@@ -593,8 +593,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> --vmodule moduleSpec comma-separated list of pattern=N settings for file-filtered logging
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace/">kcp workspace&lt;/a> - Manages KCP workspaces&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp workspace create-context</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_create-context/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_create-context/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace/">kcp workspace&lt;/a> - Manages KCP workspaces&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp workspace create-context</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_create-context/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_create-context/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workspace create-context [&amp;lt;context-name&amp;gt;] [--overwrite] [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="examples">Examples&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workspace create-context
@@ -630,8 +630,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> --vmodule moduleSpec comma-separated list of pattern=N settings for file-filtered logging
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace/">kcp workspace&lt;/a> - Manages KCP workspaces&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp workspace current</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_current/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_current/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace/">kcp workspace&lt;/a> - Manages KCP workspaces&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp workspace current</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_current/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_current/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workspace current [--short] [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="examples">Examples&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workspace current
@@ -667,8 +667,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> --vmodule moduleSpec comma-separated list of pattern=N settings for file-filtered logging
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace/">kcp workspace&lt;/a> - Manages KCP workspaces&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp workspace tree</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_tree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_tree/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace/">kcp workspace&lt;/a> - Manages KCP workspaces&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp workspace tree</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_tree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_tree/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workspace tree [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="examples">Examples&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workspace tree
@@ -704,8 +704,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> --vmodule moduleSpec comma-separated list of pattern=N settings for file-filtered logging
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace/">kcp workspace&lt;/a> - Manages KCP workspaces&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: kcp workspace use</title><link>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_use/</guid><description>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace/">kcp workspace&lt;/a> - Manages KCP workspaces&lt;/li>
+&lt;/ul></description></item><item><title>V0.10.0: kcp workspace use</title><link>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/cli/kcp_workspace_use/</guid><description>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kcp workspace use &amp;lt;workspace&amp;gt;|..|.|-|~|&amp;lt;root:absolute:workspace&amp;gt; [flags]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="options">Options&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span> -h, --help help for use
@@ -739,5 +739,5 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> --vmodule moduleSpec comma-separated list of pattern=N settings for file-filtered logging
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="see-also">SEE ALSO&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace/">kcp workspace&lt;/a> - Manages KCP workspaces&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/cli/kcp_workspace/">kcp workspace&lt;/a> - Manages KCP workspaces&lt;/li>
 &lt;/ul></description></item></channel></rss>

@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kcp - a multi-tenant control plane for Kubernetes APIs – kcp Concepts</title><link>http://kcp-dev.github.io/kcp/v0.10.0/concepts/</link><description>Recent content in kcp Concepts on kcp - a multi-tenant control plane for Kubernetes APIs</description><generator>Hugo -- gohugo.io</generator><atom:link href="http://kcp-dev.github.io/kcp/v0.10.0/concepts/index.xml" rel="self" type="application/rss+xml"/><item><title>V0.10.0: Authorization</title><link>http://kcp-dev.github.io/kcp/v0.10.0/concepts/authorization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/concepts/authorization/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kcp - a multi-tenant control plane for Kubernetes APIs – kcp Concepts</title><link>https://kcp-dev.github.io/kcp/v0.10.0/concepts/</link><description>Recent content in kcp Concepts on kcp - a multi-tenant control plane for Kubernetes APIs</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://kcp-dev.github.io/kcp/v0.10.0/concepts/index.xml" rel="self" type="application/rss+xml"/><item><title>V0.10.0: Authorization</title><link>https://kcp-dev.github.io/kcp/v0.10.0/concepts/authorization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/concepts/authorization/</guid><description>
 &lt;p>Within workspaces, KCP implements the same RBAC-based authorization mechanism as Kubernetes.
 Other authorization schemes (i.e. ABAC) are not supported.
 Generally, the same (cluster) role and (cluster) role binding principles apply exactly as in Kubernetes.&lt;/p>
@@ -186,7 +186,7 @@ Groups added by the workspace content authorizer can be used for role bindings i
 &lt;h3 id="service-accounts">Service Accounts&lt;/h3>
 &lt;p>Kubernetes service accounts are granted access to the workspaces they are defined in and that are ready.&lt;/p>
 &lt;p>E.g. a service account &amp;ldquo;default&amp;rdquo; in &lt;code>root:org:ws:ws&lt;/code> is granted access to &lt;code>root:org:ws:ws&lt;/code>, and through the
-workspace content authorizer it gains the &lt;code>system:kcp:clusterworkspace:access&lt;/code> group membership.&lt;/p></description></item><item><title>V0.10.0: Cache Server</title><link>http://kcp-dev.github.io/kcp/v0.10.0/concepts/cache-server/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/concepts/cache-server/</guid><description>
+workspace content authorizer it gains the &lt;code>system:kcp:clusterworkspace:access&lt;/code> group membership.&lt;/p></description></item><item><title>V0.10.0: Cache Server</title><link>https://kcp-dev.github.io/kcp/v0.10.0/concepts/cache-server/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/concepts/cache-server/</guid><description>
 &lt;h3 id="purpose">Purpose&lt;/h3>
 &lt;p>The primary purpose of the cache server is to support cross-shard communication.
 Shards need to communicate with each other in order to enable, among other things, migration and replication features.
@@ -274,7 +274,7 @@ Thanks to that the server can share the same database with the kcp server.&lt;/p
 &lt;p>Ultimately a shard aware resources end up being stored under the following key:&lt;/p>
 &lt;p>&lt;code>/cache/group/resource/{shard-name}/{cluster-name}/{namespace-name}/{resource-name}&lt;/code>&lt;/p>
 &lt;p>For more information about inner working of the storage layer,
-please visit: TODO: add a link that explains the mapping of a URL to a storage prefix.&lt;/p></description></item><item><title>V0.10.0: Cluster Mapper</title><link>http://kcp-dev.github.io/kcp/v0.10.0/concepts/cluster-mapper/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/concepts/cluster-mapper/</guid><description>
+please visit: TODO: add a link that explains the mapping of a URL to a storage prefix.&lt;/p></description></item><item><title>V0.10.0: Cluster Mapper</title><link>https://kcp-dev.github.io/kcp/v0.10.0/concepts/cluster-mapper/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/concepts/cluster-mapper/</guid><description>
 &lt;h2 id="invariants">Invariants&lt;/h2>
 &lt;ol>
 &lt;li>Every object assigned by a location exists on the target location&lt;/li>
@@ -329,7 +329,7 @@ wants to watch many different resources at once and deal with them as unstructur
 &lt;li>can we leverage the garbage collector to delete the object?&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ol></description></item><item><title>V0.10.0: Kubectl kcp plugin</title><link>http://kcp-dev.github.io/kcp/v0.10.0/concepts/kubectl-kcp-plugin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/concepts/kubectl-kcp-plugin/</guid><description>
+&lt;/ol></description></item><item><title>V0.10.0: Kubectl kcp plugin</title><link>https://kcp-dev.github.io/kcp/v0.10.0/concepts/kubectl-kcp-plugin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/concepts/kubectl-kcp-plugin/</guid><description>
 &lt;p>kcp provides a kubectl plugin that simplifies the operations with the kcp server.&lt;/p>
 &lt;p>You can install the plugin from the current repo:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>$ make install
@@ -365,7 +365,7 @@ wants to watch many different resources at once and deal with them as unstructur
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --vmodule moduleSpec comma-separated list of pattern&lt;span style="color:#f92672">=&lt;/span>N settings &lt;span style="color:#66d9ef">for&lt;/span> file-filtered logging
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Use &lt;span style="color:#e6db74">&amp;#34;kcp [command] --help&amp;#34;&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span> more information about a command.
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>V0.10.0: Placement, Locations and Scheduling</title><link>http://kcp-dev.github.io/kcp/v0.10.0/concepts/locations-and-scheduling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/concepts/locations-and-scheduling/</guid><description>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>V0.10.0: Placement, Locations and Scheduling</title><link>https://kcp-dev.github.io/kcp/v0.10.0/concepts/locations-and-scheduling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/concepts/locations-and-scheduling/</guid><description>
 &lt;p>KCP implements &lt;em>Compute as a Service&lt;/em> via a concept of Transparent Multi Cluster (TMC). TMC means that
 Kubernetes clusters are attached to a kcp installation to execute workload objects from the users'
 workspaces by syncing these workload objects down to those clusters and the objects&amp;rsquo; status
@@ -507,7 +507,7 @@ workspace.&lt;/p>
 &lt;p>There is a missing bit in the implementation (in v0.5) about removal of the &lt;code>state.workload.kcp.io/&amp;lt;cluster-id&amp;gt;&lt;/code>
 label from namespaces: the syncer currently does not participate in the namespace deletion state-machine, but has to and signal finished
 downstream namespace deletion via &lt;code>state.workload.kcp.io/&amp;lt;cluster-id&amp;gt;&lt;/code> label removal.&lt;/p>
-&lt;p>For more information on the upsync use case for storage, refer to the &lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/concepts/storage/">storage doc&lt;/a>.&lt;/p>
+&lt;p>For more information on the upsync use case for storage, refer to the &lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/concepts/storage/">storage doc&lt;/a>.&lt;/p>
 &lt;/div>
 &lt;h3 id="resource-upsyncing">Resource Upsyncing&lt;/h3>
 &lt;p>In most cases kcp will be the source for syncing resources to the &lt;code>SyncTarget&lt;/code>, however, in some cases,
@@ -518,13 +518,13 @@ In addition, other &lt;code>SyncTargets&lt;/code> cannot be syncing down while t
 &lt;p>A resource coordination controller will be responsible for changing the &lt;code>state.workload.kcp.io/&amp;lt;cluster-id&amp;gt;&lt;/code> label,
 to drive the different flows on the resource. A resource can be changed from &lt;code>Upsync&lt;/code> to &lt;code>Sync&lt;/code> in order to share it across &lt;code>SyncTargets&lt;/code>.
 This change will be applied by the coordination controller when needed, and the original syncer will detect that change and stop upsyncing to that resource,
-and all the sync targets involved will be in &lt;code>Sync&lt;/code> state.&lt;/p></description></item><item><title>V0.10.0: Registering Kubernetes Clusters using syncer</title><link>http://kcp-dev.github.io/kcp/v0.10.0/concepts/syncer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/concepts/syncer/</guid><description>
+and all the sync targets involved will be in &lt;code>Sync&lt;/code> state.&lt;/p></description></item><item><title>V0.10.0: Registering Kubernetes Clusters using syncer</title><link>https://kcp-dev.github.io/kcp/v0.10.0/concepts/syncer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/concepts/syncer/</guid><description>
 &lt;p>In order to register a Kubernetes clusters with the kcp server,
 users have to install a special component named &lt;a href="">syncer&lt;/a>.&lt;/p>
 &lt;h2 id="requirements">Requirements&lt;/h2>
 &lt;ul>
 &lt;li>kcp server&lt;/li>
-&lt;li>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/concepts/kubectl-kcp-plugin/">kcp kubectl plugin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/concepts/kubectl-kcp-plugin/">kcp kubectl plugin&lt;/a>&lt;/li>
 &lt;li>kubernetes cluster&lt;/li>
 &lt;/ul>
 &lt;h2 id="instructions">Instructions&lt;/h2>
@@ -602,7 +602,7 @@ kubernetes &lt;code>APIExport&lt;/code> in workspace of &lt;code>SyncTarget&lt;/
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In addition, you can specify the certain location or namespace to create placement. e.g.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>kubectl kcp bind compute &amp;lt;workspace of synctarget&amp;gt; --location-selectors=env=test --namespace-selector=purpose=workload
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>this command will create a &lt;code>Placement&lt;/code> selecting a &lt;code>Location&lt;/code> with label &lt;code>env=test&lt;/code> and bind the selected &lt;code>Location&lt;/code> to namespaces with
-label &lt;code>purpose=workload&lt;/code>. See more details of placement and location &lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/concepts/locations-and-scheduling/">here&lt;/a>&lt;/p>
+label &lt;code>purpose=workload&lt;/code>. See more details of placement and location &lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/concepts/locations-and-scheduling/">here&lt;/a>&lt;/p>
 &lt;h3 id="running-a-workload">Running a workload&lt;/h3>
 &lt;ol>
 &lt;li>
@@ -753,7 +753,7 @@ to what we have when running inside the kind with own kubeconfig.&lt;/p>
 &lt;p>Wait for the kcp sync target to go ready:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>kubectl wait --for&lt;span style="color:#f92672">=&lt;/span>condition&lt;span style="color:#f92672">=&lt;/span>Ready synctarget/&amp;lt;mycluster&amp;gt;
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
-&lt;/ol></description></item><item><title>V0.10.0: Quickstart: Tenancy and APIs</title><link>http://kcp-dev.github.io/kcp/v0.10.0/concepts/quickstart-tenancy-and-apis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/concepts/quickstart-tenancy-and-apis/</guid><description>
+&lt;/ol></description></item><item><title>V0.10.0: Quickstart: Tenancy and APIs</title><link>https://kcp-dev.github.io/kcp/v0.10.0/concepts/quickstart-tenancy-and-apis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/concepts/quickstart-tenancy-and-apis/</guid><description>
 &lt;h2 id="prerequisites">Prerequisites&lt;/h2>
 &lt;p>A running kcp server, as per &lt;a href="">README.md&lt;/a>.&lt;/p>
 &lt;h2 id="set-your-kubeconfig">Set your KUBECONFIG&lt;/h2>
@@ -992,7 +992,7 @@ look at a specific namespace across all workspaces, so you have to list across a
 (NotFound): Unable to list &amp;hellip;: the server could not find the requested resource&amp;rdquo;. Is this a bug?&lt;/p>
 &lt;p>A: It is a bug. See &lt;a href="">https://github.com/kcp-dev/kcp/issues/1183&lt;/a>&lt;/p>
 &lt;p>When fixed, we expect the &lt;code>APIExport&lt;/code> behavior will change such that there will be no virtual workspace URLs until an
-&lt;code>APIBinding&lt;/code> is created.&lt;/p></description></item><item><title>V0.10.0: Terminology for kcp</title><link>http://kcp-dev.github.io/kcp/v0.10.0/concepts/concepts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/concepts/concepts/</guid><description>
+&lt;code>APIBinding&lt;/code> is created.&lt;/p></description></item><item><title>V0.10.0: Terminology for kcp</title><link>https://kcp-dev.github.io/kcp/v0.10.0/concepts/concepts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/concepts/concepts/</guid><description>
 &lt;h2 id="logical-cluster">Logical cluster&lt;/h2>
 &lt;p>A logical cluster is a way to subdivide a single kube-apiserver + etcd storage into multiple clusters (different APIs,
 separate semantics for access, policy, and control) without requiring multiple instances. A logical cluster is a
@@ -1070,7 +1070,7 @@ Kube APIs, this other “type” get the knative apis).&lt;/p>
 &lt;h2 id="location">Location&lt;/h2>
 &lt;p>A collection of SyncTargets that describe runtime characteristics that allow placement of applications.
 Characteristics are not limited but could describe things like GPU, supported storage, compliance or
-regulatory fulfillment, or geographical placement.&lt;/p></description></item><item><title>V0.10.0: Virtual Workspaces</title><link>http://kcp-dev.github.io/kcp/v0.10.0/concepts/virtual-workspaces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/concepts/virtual-workspaces/</guid><description>
+regulatory fulfillment, or geographical placement.&lt;/p></description></item><item><title>V0.10.0: Virtual Workspaces</title><link>https://kcp-dev.github.io/kcp/v0.10.0/concepts/virtual-workspaces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/concepts/virtual-workspaces/</guid><description>
 &lt;p>Virtual workspaces are proxy-like apiservers under a custom URL that provide some computed view of real workspaces.&lt;/p>
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;ol>
@@ -1094,7 +1094,7 @@ A normal service account lives in just ONE workspace and can only access its own
 &lt;li>&lt;strong>Will there be multiple virtual workspace URLs my controller has to watch?&lt;/strong> Yes, as soon as we add sharding, it will become a list. So it might be that 1000 tenants are accessible under one URL, the next 1000 under another one, and so on. The controllers have to watch the mentioned URL lists in status of objects and start new instances (either with their own controller sharding eventually, or just in process with another go routine).&lt;/li>
 &lt;li>&lt;strong>Show me the code.&lt;/strong> The stock kcp virtual workspaces are in &lt;a href="">&lt;code>pkg/virtual&lt;/code>&lt;/a>.&lt;/li>
 &lt;li>&lt;strong>Who runs the virtual workspaces?&lt;/strong> The stock kcp virtual workspaces will be run through &lt;code>kcp start&lt;/code> in-process. The personal workspace one (example 1) can also be run as its own process and the kcp apiserver will forward traffic to the external address. There might be reasons in the future like scalability that the later model is preferred. For the clients of virtual workspaces that has no impact. They are supposed to &amp;ldquo;blindly&amp;rdquo; use the URLs published in the API objects&amp;rsquo; status. Those URLs might point to in-process instances or external addresses depending on deployment topology.&lt;/li>
-&lt;/ul></description></item><item><title>V0.10.0: Workspaces</title><link>http://kcp-dev.github.io/kcp/v0.10.0/concepts/workspaces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/concepts/workspaces/</guid><description>
+&lt;/ul></description></item><item><title>V0.10.0: Workspaces</title><link>https://kcp-dev.github.io/kcp/v0.10.0/concepts/workspaces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/concepts/workspaces/</guid><description>
 &lt;p>Multi-tenancy is implemented through workspaces. A workspace is a Kubernetes-cluster-like
 HTTPS endpoint, i.e. an endpoint usual Kubernetes client tooling (client-go, controller-runtime
 and others) and user interfaces (kubectl, helm, web console, &amp;hellip;) can talk to like to a
@@ -1308,19 +1308,19 @@ via a ClusterWorkspace nor any per-request check for workspace existence.&lt;/p>
 neither a definition via a ClusterWorkspace, nor is there any validation of requests
 that the system workspace exists.&lt;/p>
 &lt;p>The &lt;code>system:admin&lt;/code> system workspace is special as it is also accessible through &lt;code>/&lt;/code>
-of the shard, and at &lt;code>/cluster/system:admin&lt;/code> at the same time.&lt;/p></description></item><item><title>V0.10.0: Developers</title><link>http://kcp-dev.github.io/kcp/v0.10.0/concepts/developers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/concepts/developers/</guid><description/></item><item><title>V0.10.0: Investigations</title><link>http://kcp-dev.github.io/kcp/v0.10.0/concepts/investigations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/concepts/investigations/</guid><description/></item><item><title>V0.10.0:</title><link>http://kcp-dev.github.io/kcp/v0.10.0/concepts/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://kcp-dev.github.io/kcp/v0.10.0/concepts/storage/</guid><description>
+of the shard, and at &lt;code>/cluster/system:admin&lt;/code> at the same time.&lt;/p></description></item><item><title>V0.10.0: Developers</title><link>https://kcp-dev.github.io/kcp/v0.10.0/concepts/developers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/concepts/developers/</guid><description/></item><item><title>V0.10.0: Investigations</title><link>https://kcp-dev.github.io/kcp/v0.10.0/concepts/investigations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/concepts/investigations/</guid><description/></item><item><title>V0.10.0:</title><link>https://kcp-dev.github.io/kcp/v0.10.0/concepts/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kcp-dev.github.io/kcp/v0.10.0/concepts/storage/</guid><description>
 &lt;h1 id="storage-and-stateful-applications">Storage and stateful applications&lt;/h1>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>KCP provides a control plane that implements the concept of Transparent Multi Cluster (TMC) for compute, network, and storage. In order to give the illusion of transparent storage in KCP, it exposes the same Kubernetes APIs for storage (PVC/PV), so users and workloads do not need to be aware of the coordinations taken by the control plane behind the scenes.&lt;/p>
-&lt;p>Placement for storage in KCP uses the same &lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/concepts/locations-and-scheduling/">concepts used for compute&lt;/a>: &amp;ldquo;&lt;code>SyncTargets&lt;/code> in a &lt;code>Location&lt;/code> are transparent to the user, and workloads should be able to seamlessly move from one &lt;code>SyncTarget&lt;/code> to another within a &lt;code>Location&lt;/code>, based on operational concerns of the compute service provider, like decommissioning a cluster, rebalancing capacity, or due to an outage of a cluster. It is the compute service&amp;rsquo;s responsibility to ensure that for workloads in a location, to the user it looks like ONE cluster.&amp;rdquo;&lt;/p>
+&lt;p>Placement for storage in KCP uses the same &lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/concepts/locations-and-scheduling/">concepts used for compute&lt;/a>: &amp;ldquo;&lt;code>SyncTargets&lt;/code> in a &lt;code>Location&lt;/code> are transparent to the user, and workloads should be able to seamlessly move from one &lt;code>SyncTarget&lt;/code> to another within a &lt;code>Location&lt;/code>, based on operational concerns of the compute service provider, like decommissioning a cluster, rebalancing capacity, or due to an outage of a cluster. It is the compute service&amp;rsquo;s responsibility to ensure that for workloads in a location, to the user it looks like ONE cluster.&amp;rdquo;&lt;/p>
 &lt;p>KCP will provide the basic controllers and coordination logic for moving volumes, as efficiently as possible, using the underlying storage topology and capabilities. It will use the &lt;code>SyncTargets&lt;/code> storage APIs to manage volumes, and not require direct access from the control plane to the storage itself. For more advanced or custom solutions, KCP will allow external coordinators to take over.&lt;/p>
 &lt;h2 id="main-concepts">Main concepts&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/concepts/investigations/transparent-multi-cluster/">Transparent multi-cluster&lt;/a> - describes the TMC concepts.&lt;/p>
+&lt;p>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/concepts/investigations/transparent-multi-cluster/">Transparent multi-cluster&lt;/a> - describes the TMC concepts.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/concepts/locations-and-scheduling/">Placement, Locations and Scheduling&lt;/a> - describes the KCP APIs and mechanisms used to control compute placement, which will be used for storage as well. Refer to the concepts of &lt;code>SyncTarget&lt;/code>, &lt;code>Location&lt;/code>, and &lt;code>Placement&lt;/code>.&lt;/p>
+&lt;p>&lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/concepts/locations-and-scheduling/">Placement, Locations and Scheduling&lt;/a> - describes the KCP APIs and mechanisms used to control compute placement, which will be used for storage as well. Refer to the concepts of &lt;code>SyncTarget&lt;/code>, &lt;code>Location&lt;/code>, and &lt;code>Placement&lt;/code>.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="">Kubernetes storage concepts&lt;/a> - documentation of storage APIs in Kubernetes.&lt;/p>
@@ -1355,7 +1355,7 @@ of the shard, and at &lt;code>/cluster/system:admin&lt;/code> at the same time.&
 &lt;h2 id="provisioning-volumes">Provisioning volumes&lt;/h2>
 &lt;p>Volume provisioning in Kubernetes involves the CSI controllers and sidecar, as well as a custom storage driver. It reconciles PVCs by dynamically creating a PV for a PVC, and binding them together. This process depends on the CSI driver to be running on the &lt;code>SyncTarget&lt;/code> compute resources, and would not be able to run on KCP workspaces. Instead, KCP will pick a designated &lt;code>SyncTarget&lt;/code> for the workload placement, which will include the storage claims (PVCs), and the CSI driver on the &lt;code>SyncTarget&lt;/code> will perform the storage provisioning.&lt;/p>
 &lt;p>In order to support changing workload placement overtime, even if the provisioning &lt;code>SyncTarget&lt;/code> is offline, KCP will have to retrieve the volume information from that &lt;code>SyncTarget&lt;/code>, and keep it in the KCP workspace for future coordination. The volume information inside the PV is expected to be transferable between &lt;code>SyncTargets&lt;/code> that connect to the same storage system and drivers, although some transformations would be required.&lt;/p>
-&lt;p>To retrieve the volume information and maintain it in KCP, a special sync state is required that will sync &lt;strong>UP&lt;/strong> the PV from a &lt;code>SyncTarget&lt;/code> to KCP. This state is referred to as &lt;code>Upsync&lt;/code> - see &lt;a href="http://kcp-dev.github.io/kcp/kcp/v0.10.0/concepts/locations-and-scheduling/">Resource Upsyncing&lt;/a>.&lt;/p>
+&lt;p>To retrieve the volume information and maintain it in KCP, a special sync state is required that will sync &lt;strong>UP&lt;/strong> the PV from a &lt;code>SyncTarget&lt;/code> to KCP. This state is referred to as &lt;code>Upsync&lt;/code> - see &lt;a href="https://kcp-dev.github.io/kcp/kcp/v0.10.0/concepts/locations-and-scheduling/">Resource Upsyncing&lt;/a>.&lt;/p>
 &lt;p>The provisioning flow includes: (A) PVC synced to &lt;code>SyncTarget&lt;/code>, (B) CSI provisioning on the pcluster, (C) Syncer detects PVC binding and initiates PV &lt;code>Upsync&lt;/code>. Transformations would be applied in KCP virtual workspace to make sure that the PVC and PV would appear bound in KCP, similar to how it is in a single cluster. Once provisioning itself is complete, coordination logic will switch to a normal &lt;code>Sync&lt;/code> state, to allow multiple &lt;code>SyncTargets&lt;/code> to share the same volume, and for owned volumes to move ownership to another &lt;code>SyncTarget&lt;/code>.&lt;/p>
 &lt;h2 id="moving-shared-volumes">Moving shared volumes&lt;/h2>
 &lt;p>Shared volume can easily move to any &lt;code>SyncTarget&lt;/code> in the same &lt;code>Location&lt;/code> by syncing the PVC and PV together, so they bind only to each other on the pcluster. Syncing will transform their mutual references so that the &lt;code>PVC.volumeName = PV.name&lt;/code> and &lt;code>PV.claimRef = { PVC.name, PVC.namespace }&lt;/code> are set appropriately for the &lt;code>SyncTarget&lt;/code>, since the downstream &lt;code>PVC.namespace&lt;/code> and &lt;code>PV.name&lt;/code> will not be the same as upstream.&lt;/p>
